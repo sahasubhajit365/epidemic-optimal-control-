@@ -42,7 +42,7 @@ To address this, we introduce:
 - Computes percentage deviation:
   - EFS under IPP-optimal control  
   - IPP under EFS-optimal control  
-- Analyzes how conflict varies with intervention duration (\tau)  
+- Analyzes how conflict varies with intervention duration ($\tau$)  
 
 ---
 
@@ -59,7 +59,7 @@ To address this, we introduce:
 ### 4. `Feasibility_satisfying_peak_threshold.py`
 - Identifies feasible weight combinations under a peak-capacity constraint  
 - Determines which strategies satisfy:
-  -  I_{\max} \leq I_{\text{threshold}}   
+  -  $I_{\max} \leq I_{\text{threshold}}$   
 - Characterizes the feasible trade-off region  
 
 ---
