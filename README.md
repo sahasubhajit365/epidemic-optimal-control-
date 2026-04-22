@@ -59,7 +59,7 @@ To address this, we introduce:
 ### 4. `Feasibility_satisfying_peak_threshold.py`
 - Evaluates optimal Total Burden solutions across different weight ratios $q= W_1/W_2 $  
 - Extracts the corresponding peak infection levels $I^{*}_{max}(q)$  
-- Identifies which weight ratios satisfy $I^{*}_{max}(q)\leq I_{\text{threshold}}$, thereby determining feasible regions in weight space  
+-  Identifies which weight ratios satisfy the constraint $I_{\max}^*(q) \leq I_{\text{threshold}}$, thereby determining feasible regions in weight space  
 
 ---
 
