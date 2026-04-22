@@ -11,7 +11,7 @@ gamma = 1 / 14
 R0 = beta / gamma
 tau = 60
 
-ti_grid_full = np.linspace(1, 80, 80)
+ti_grid = np.linspace(1, 80, 80)
 f_grid = np.linspace(0, 1, 85)
 sigma_grid = np.linspace(0, 0.9, 10)
 
