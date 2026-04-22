@@ -57,10 +57,9 @@ To address this, we introduce:
 ---
 
 ### 4. `Feasibility_satisfying_peak_threshold.py`
-- Identifies feasible weight combinations under a peak-capacity constraint  
-- Determines which strategies satisfy:
-  -  $I_{\max} \leq I_{\text{threshold}}$   
-- Characterizes the feasible trade-off region  
+- Evaluates optimal Total Burden solutions across different weight ratios $q= W_1/W_2 $  
+- Extracts the corresponding peak infection levels $ I_{\max}^*(q) $  
+- Identifies which weight ratios satisfy $ I_{\max}^*(q) \leq I_{\text{threshold}} $, thereby determining feasible regions in weight space  
 
 ---
 
