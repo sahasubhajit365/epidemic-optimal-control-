@@ -82,7 +82,7 @@ To address this, we introduce:
 
 ## Requirements
 
-- Python 3.x  
+- Python 3.9 or higher 
 - NumPy  
 - SciPy  
 - Matplotlib
@@ -91,4 +91,4 @@ To address this, we introduce:
 Install dependencies using:
 
 ```bash
-pip install numpy scipy matplotlib
+pip install numpy scipy matplotlib cma
