@@ -63,20 +63,20 @@ To address this, we introduce:
 
 ---
 
-### 5. `Policy_Advantages.py`
-- Demonstrates advantages of MS over fixed-intensity strategies  
-- Shows that:
-  - Early MS strategies can simultaneously reduce both IPP and EFS
- 
----
-
-### 6. `CMA_ES_Implementation.py`
+### 5. `CMA_ES_Implementation.py`
 - Performs derivative-free optimization of fully time-dependent control using the **CMA-ES algorithm**  
 - Parameterizes the control function as a piecewise linear profile over the intervention window    
 - Computes:
   - Optimal intervention start time \(t_p\)  
   - Time-dependent control profile \(\sigma(t)\)  
   - Corresponding epidemic trajectories
+ 
+---
+
+### 6. `Policy_Advantages.py`
+- Demonstrates advantages of MS over fixed-intensity strategies  
+- Shows that:
+  - Early MS strategies can simultaneously reduce both IPP and EFS
 
 ---
 
